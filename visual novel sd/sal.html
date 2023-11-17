@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Серые дни</title>
+    <style>
+        body{
+            width: 1280px;
+            margin: 0px;
+            height: 720px;
+        }
+        .edf{
+    width: 1280px;
+   height: 720px;
+   display: none;
+        }
+        .div33{
+            background-color: black;
+            width: 100%;
+            height: 180px;
+            text-align: left;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 10px;
+            display: none;
+        }
+        .nam{
+            color: red;
+        }
+        #onef14{
+            display: block;
+        }
+        #d1{
+            display: block;
+        }
+        .div1{
+            display: none;
+        }
+        #i1{
+            display: block;
+        }
+    </style>
+    <!-- Yandex Games SDK -->
+<script src="https://yandex.ru/games/sdk/v2"></script>
+</head>
+<body>
+    <img src="imggggg/pkj/photo1698076768.jpeg" alt="" class="edf" id="onef14">
+    <img src="imggggg/pkj/photo1697998844.jpeg" alt="" class="edf" id="onef15">
+    <img src="imggggg/pkj/photo1698071090.jpeg" alt="" class="edf" id="onef16">
+    <img src="imggggg/pkj/photo1698071621 (1).jpeg" alt="" class="edf" id="onef17">
+    <img src="imggggg/pkj/photo1698076768 (1).jpeg" alt="" class="edf" id="onef18">
+    <img src="imggggg/pkj/IMG_20231022_160004 (1).jpg" alt="" class="edf" id="onef19">
+    <img src="imggggg/pkj/photo1697973071 (2).jpeg" alt="" class="edf" id="onef">
+    <button class="div33" onclick="onbu()" id="d1">
+        <div id="i1" class="div1">
+        <div class="nam">Я</div>
+        Да, пошли
+    </div>
+    </button>
+    <button class="div33" onclick="onbu1()" id="d2">
+        <div class="nam">Алиса</div>
+        <div id="i2" class="div1">
+        Хорошо, тогда подожди меня, я продукты оплачу
+    </div>
+    <button class="div33" onclick="onbu2()" id="d3">
+        <div class="nam">Я</div>
+        <div id="i3" class="div1">
+        Ага.......
+    </div>
+    </button>
+    <button class="div33" onclick="onbu3()" id="d4">
+        <div id="i4" class="div1">
+        <i>Сделал ли я правильный выбор? Может стоило бы отказать Алисе и пойти одному?</i>
+    </div>
+    </button>
+    <button class="div33" onclick="onbu4()" id="d5">
+        <div id="i5" class="div1">
+        <i>Ладно, придется проводить Алису</i>
+    </div>
+    </button>
+    <button class="div33" onclick="onbu5()" id="d6">
+        <div class="nam">Алиса</div>
+        <div id="i6" class="div1">
+        Ну.. Пойдем?
+    </div>
+    </button>
+    <button class="div33" onclick="onbu6()" id="d7">
+        <div class="nam">Я</div>
+        <div id="i7" class="div1">
+        Ага...
+    </div>
+    </button>
+    <button class="div33" onclick="onbu7()" id="d8">
+        <div id="i8" class="div1">
+        <i>Надо бы спросить ее о чем-нибудь, но о чем?</i>
+    </div>
+    </button>
+    <button class="div33" onclick="onbu8()" id="d9">
+        <div class="nam">Я</div>
+        <div id="i9" class="div1">
+        Какой твой любимый цвет?
+    </div>
+    </button>
+    <button class="div33" onclick="onbu9()" id="d10">
+        <div id="i10" class="div1">
+        <i>Блин... Что я вообще спрашиваю? Как нелепо</i>
+    </div>
+    </button>
+    <button class="div33" onclick="onbu10()" id="d11">
+        <div class="nam">Алиса</div>
+        <div id="i11" class="div1">
+        Зеленый
+    </div>
+    </button>
+    <button class="div33" onclick="onbu11()" id="d12">
+        <div class="nam">Я</div>
+        <div id="i12" class="div1">
+       Понятно....
+    </div>
+    </button>
+    <button class="div33" onclick="onbu12()" id="d13">
+        <div class="nam">Алиса</div>
+        <div id="i13" class="div1">
+       А у тебя?
+    </div>
+    </button>
+    <button class="div33" onclick="onbu13()" id="d14">
+        <div class="nam">Я</div>
+        <div id="i14" class="div1">
+       Серый
+    </div>
+    </button>
+    <button class="div33" onclick="onbu14()" id="d15">
+        <div class="nam">Алиса</div>
+        <div id="i15" class="div1">
+       Необычно
+    </div>
+    </button>
+    <button class="div33" onclick="onbu15()" id="d16">
+        <div id="i16" class="div1">
+       <i>Она считает меня странным?</i>
+    </div>
+    </button>
+    <button class="div33" onclick="onbu16()" id="d17">
+        <div class="nam">Алиса</div>
+        <div id="i17" class="div1">
+            Слушай...
+    </div>
+    </button>
+    <button class="div33" onclick="onbu17()" id="d18">
+        <div class="nam">Алиса</div>
+        <div id="i18" class="div1">
+            А чем ты занимаешься после пар?
+    </div>
+    </button>
+    <button class="div33" onclick="onbu18()" id="d19">
+        <div class="nam">Я</div>
+        <div id="i19" class="div1">
+            Ну... ничем, я просто прихожу домой ужинаю и ложусь спать...
+    </div>
+    </button>
+    <button class="div33" onclick="onbu19()" id="d20">
+        <div class="nam">Алиса</div>
+        <div id="i20" class="div1">
+            ....
+    </div>
+    </button>
+    <button class="div33" onclick="onbu20()" id="d21">
+        <div class="nam">Алиса</div>
+        <div id="i21" class="div1">
+            Понятно, скучная у тебя жизнь
+    </div>
+    </button>
+    <button class="div33" onclick="onbu21()" id="d22">
+        <div class="nam">Я</div>
+        <div id="i22" class="div1">
+         Ага....
+    </div>
+    </button>
+    <button class="div33" onclick="onbu22()" id="d23">
+        <div class="nam">Алиса</div>
+        <div id="i23" class="div1">
+         То есть, у тебя вообще нет друзей?
+    </div>
+    </button>
+    <button class="div33" onclick="onbu23()" id="d24">
+        <div class="nam">Я</div>
+        <div id="i24" class="div1">
+         Да....
+    </div>
+    </button>
+    <button class="div33" onclick="onbu24()" id="d25">
+        <div class="nam">Алиса</div>
+        <div id="i25" class="div1">
+         Я могу стать твоим другом, хочешь?
+    </div>
+    </button>
+    <button class="div33" onclick="onbu25()" id="d26">
+        <div class="nam">Я</div>
+        <div id="i26" class="div1">
+         Серьезно? Я был бы очень рад
+    </div>
+    </button>
+    <button class="div33" onclick="onbu26()" id="d27">
+        <div class="nam">Алиса</div>
+        <div id="i27" class="div1">
+         Отлично
+    </div>
+    </button>
+    <button class="div33" onclick="onbu27()" id="d28">
+        <div class="nam">Алиса</div>
+        <div id="i28" class="div1">
+         А вот и мой дом, ну ладно, до завтра
+    </div>
+    </button>
+    <button class="div33" onclick="onbu28()" id="d29">
+        <div class="nam">Я</div>
+        <div id="i29" class="div1">
+         Пока.....
+    </div>
+    </button>
+    <button class="div33" onclick="onbu29()" id="d30">
+        <div id="i30" class="div1">
+         <i>Пойду домой</i>
+    </div>
+    </button>
+    <button class="div33" onclick="onbu30()" id="d31">
+        <div id="i31" class="div1">
+         *Пришел домой*
+    </div>
+    </button>
+    <button class="div33" onclick="onbu31()" id="d32">
+        <div id="i32" class="div1">
+         <i>Сегодня был неплохой день, даже смог найти себе друга</i>
+    </div>
+    </button>
+    <button class="div33" onclick="onbu32()" id="d33">
+        <div id="i33" class="div1">
+         <i>Ладно, поем и пойду спать</i>
+    </div>
+    </button>
+    <button class="div33"onclick="window.location.href='gl2 var2.html'" id="d34">
+        <div id="i34" class="div1">
+         *Лег спать*
+    </div>
+    </button>
+    <script src="saljs.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</body>
+</html>

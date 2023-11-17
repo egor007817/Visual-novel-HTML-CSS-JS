@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Глава 2</title>
+    <style>
+        body{
+            width: 1280px;
+            margin: 0px;
+            height: 720px;
+        }
+        .edf{
+    width: 1280px;
+   height: 720px;
+   display: none;
+        }
+        .div33{
+            background-color: black;
+            width: 100%;
+            height: 180px;
+            text-align: left;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 10px;
+            display: none;
+        }
+        .nam{
+            color: red;
+        }
+        .div100{
+            display: none;
+        }
+        #v1{
+            display: block;
+        }
+        #ovgl1{
+            text-align: center;
+        }
+    </style>
+</head>
+<!-- Yandex Games SDK -->
+<script src="https://yandex.ru/games/sdk/v2"></script>
+<body>
+    <div id="ovgl1">
+    <h1>Спасибо за прохождение первой главы!</h1>
+    <h1>Второя глава ещё не сделана, но она скоро выйдет!</h1>
+    <h1>Удачи!</h1>
+</div>
+    <button class="div33" onclick="omb()" id="m1">
+        <div class="div100" id="v1">
+        <i>Это утро уже не кажется таким мрачным, ведь у меня есть новый Друг</i>
+        </div>
+    </button>
+    <button class="div100" onclick="omb1()" id="m2">
+        <div id="v2" class="div100">
+        <i>Не знаю пойдет ли мне эта дружба но пользу</i>
+        </div>
+    </button>
+    <button class="div100" onclick="omb2()" id="m3">
+        <div id="v3" class="div100">
+        <i>Но все же лучше чем быть одному</i>
+        </div>
+        </button>
+        <button class="div100" onclick="omb3()" id="m4">
+            <div id="v4" class="div100">
+                <i>Ладно, сейчас поем и пойду в колледж</i>
+            </div>
+            </button>
+            <button class="div100" onclick="omb4()" id="m5">
+                <div id="v5" class="div100">
+                    *Вышел в подьезд*
+                </div>
+                </button>
+                <button class="div100" onclick="omb5()" id="m6">
+                    <div id="v6" class="div100">
+                        <i>Это же..... Вроде бы мой одногруппник... Так мы соседи....</i>
+                    </div>
+                    </button>
+                    <button class="div100" onclick="omb6()" id="m7">
+                        <div class="nam">???</div>
+                        <div id="v7" class="div100">
+                            О здарова, ты же новенький
+                        </div>
+                        </button>
+                        <button class="div100" onclick="omb7()" id="m8">
+                            <div class="nam">Я</div>
+                            <div id="v8" class="div100">
+                                Ага....
+                            </div>
+                            </button>
+                            <button class="div100" onclick="omb8()" id="m9">
+                                <div class="nam">Юра</div>
+                                <div id="v9" class="div100">
+                                    Я  Юра! А тебя как зовут?
+                                </div>
+                                </button>
+                                <button class="div100" onclick="omb9()" id="m10">
+                                    <div id="v10" class="div100">
+                                        *Юра протянул вам руку*
+                                    </div>
+                                    </button>
+                                    <button class="div100" onclick="omb10()" id="m11">
+                                        <div id="v11" class="div100">
+                                            *Вы пожали её*
+                                        </div>
+                                        </button>
+                                        <button class="div100" onclick="omb11()" id="m12">
+                                            <div class="nam">Я</div>
+                                            <div id="v12" class="div100">
+                                            Я... Рома!
+                                            </div>
+                                            </button>
+                                            <button class="div100" onclick="omb12()" id="m13">
+                                                <div class="nam">Юра</div>
+                                                <div id="v13" class="div100">
+                                                Ну пошли тогда в колледж, Рома
+                                                </div>
+                                                </button>
+                                                <button class="div100" onclick="omb13()" id="m14">
+                                                    <div class="nam">Я</div>
+                                                    <div id="v14" class="div100">
+                                                    Ага...
+                                                    </div>
+                        <button class="div100" onclick="omb14()" id="m15">
+                                <div id="v15" class="div100">
+                                <i>Похоже, мне удалось найти ещё одного друга, не все так плохо</i>
+                                </div>
+                            </button>
+                            <button class="div100" onclick="omb15()" id="m16">
+                                <div id="v16" class="div100">
+                                <i>Мы вышли на улицу</i>
+                                </div>
+                            </button>
+                            <button class="div100" onclick="omb16()" id="m17">
+                                <div class="nam">Юра</div>
+                                <div id="v17" class="div100">
+                                Как тебе наш колледж?
+                                </div>
+                            </button>
+                            <button class="div100" onclick="omb17()" id="m18">
+                                <div class="nam">Я</div>
+                                <div id="v18" class="div100">
+                                Пока что вроде бы нормально
+                                </div>
+                            </button>
+                            <button class="div100" onclick="omb18()" id="m19">
+                            <div class="nam">Юра</div>
+                                <div id="v19" class="div100">
+                                Ясно
+                                </div>
+                            </button>
+                            <button class="div100" onclick="omb19()" id="m20">
+                                <div class="nam">Юра</div>
+                                    <div id="v20" class="div100">
+                                    О, наша остановка
+                                    </div>
+                                </button>
+                                <button class="div100" onclick="omb20()" id="m21">
+                                    <div class="nam">Я</div>
+                                        <div id="v21" class="div100">
+                                        Ага.....
+                                        </div>
+                                    </button>
+                                    <button class="div100" onclick="omb21()" id="m22">
+                                        <div class="nam">Я</div>
+                                            <div id="v22" class="div100">
+                                            ....
+                                            </div>
+                                        </button>
+                                        <button class="div100" onclick="omb22()" id="m23">
+                                            <div class="nam">Юра</div>
+                                                <div id="v23" class="div100">
+                                                Ну, расскажи что-нибудь о себе хоть
+                                                </div>
+                                            </button>
+                                            <button class="div100" onclick="omb23()" id="m24">
+                                                <div class="nam">Юра</div>
+                                                    <div id="v24" class="div100">
+                                                    Ну... Рассказывать нечего... Самая обычная и скучная жизнь у меня
+                                                    </div>
+                                                </button>
+                                                <button class="div100" onclick="omb24()" id="m25">
+                                                    <div class="nam">Юра</div>
+                                                        <div id="v25" class="div100">
+                                                        Ну, понятно, тогда я расскажу о себе
+                                                        </div>
+                                                    </button>
+                            
+    <script src="var2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</body>
+</html>

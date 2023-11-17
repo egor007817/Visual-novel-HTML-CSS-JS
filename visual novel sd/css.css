@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+#igrbut{
+    text-align: center;
+}
+#igrbut1{
+    color: white;
+    font-size: 70px;
+    background-color: aqua;
+    border: 0px;
+    margin-top: 300px;
+
+}
+#ytl{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+#igrbut1:hover{
+background-color: rgb(8, 34, 34);
+}
+a{
+    text-decoration: none;
+    color: white;
+  }
+  #igrbut3{
+    color: white;
+    font-size: 70px;
+    background-color: rgb(240, 196, 0);
+    border: 0px;
+    margin-top: 300px;
+  }
+  #igrbut3:hover{
+    background-color: rgb(65, 53, 1);
+    }
+    #igrbut2{
+        text-align: center;
+    }
+    #gl1{
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    #hnm{
+        color: white;
+        font-weight: 30px;
+        text-align: center;
+        font-size: 50px;
+    }
+    #mus{
+        margin-top: 200px;
+    }
+  
